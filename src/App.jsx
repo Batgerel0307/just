@@ -3,6 +3,7 @@ import {Route, Routes,} from "react-router-dom"
 import Login from "./login";
 import Home from "./home";
 import Plus from "./plus";
+import Gogin from "./gogin";
 
 
 export default function App(){
@@ -11,7 +12,7 @@ return(
     <Route path="/" element = {<Login/>}></Route>
     <Route path="/home" element = {<Home/>}></Route>
     <Route path="/plus" element = {<Plus/>}></Route>
-    <Route path="/"></Route>
+    <Route path="/Gogin" element = {<Gogin/>}></Route>
   </Routes>
 ) 
 }
