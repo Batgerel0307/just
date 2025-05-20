@@ -1,7 +1,7 @@
 export default function Gogin () {
     return(
         <div>
-            hello gogin
+            hello gogin it is me
         </div>
     )
 }
